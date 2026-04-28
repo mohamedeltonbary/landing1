@@ -10,7 +10,7 @@
 
 import React, { useState } from 'react';
 import styles from './Home.module.css';
-import heroImg from '../../assets/heroimg7.jpg';
+import heroImg from '../../assets/heroImg7.jpg';
 
 const Home = ({ isFormOpen, setIsFormOpen }) => {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });

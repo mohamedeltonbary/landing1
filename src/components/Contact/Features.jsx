@@ -1,8 +1,8 @@
 import React from 'react';
 // استورد الصور اللي شوفتها في فولدر الأصول عندك
-import img1 from '../../assets/heroimg3.jpg';
-import img2 from '../../assets/heroimg4.jpg';
-import img3 from '../../assets/heroimg5.jpg';
+import img1 from '../../assets/heroImg3.jpg';
+import img2 from '../../assets/heroImg4.jpg';
+import img3 from '../../assets/heroImg5.jpg';
 import Style from "./Features.module.css"
 const Features = () => {
   const featureList = [
