@@ -1,5 +1,15 @@
+// import styles from './Home.module.css';
+
+// const Home = () => (
+//   <div className={styles.Home}>
+//     Home Component
+//   </div>
+// );  mode mt-
+
+// export default Home;
 
 import React, { useState } from 'react';
+import styles from './Home.module.css';
 import heroImg from '../../assets/heroimg7.jpg';
 
 const Home = ({ isFormOpen, setIsFormOpen }) => {
